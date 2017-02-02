@@ -55,6 +55,7 @@ class  HomeView extends React.Component {
                 this.props.updateView([p, this.state.total, this.state.answear]);
             }
         } else {
+            this.props.updateView([this.state.page, this.state.total, this.state.answear]);
             console.log('result');
         }
     }
@@ -94,7 +95,7 @@ class  HomeView extends React.Component {
     }
 
     render() {
-        console.log('HomeView', this.props);
+        //console.log('HomeView', this.props);
         //console.log('json data', data);
         return (
           <div className="container">
