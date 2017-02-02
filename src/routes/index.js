@@ -10,9 +10,15 @@ export const createRoutes = (store) => ({
   path        : '/',
   component   : CoreLayout,
   indexRoute  : Home,
-  childRoutes : [
-    CounterRoute(store)
-  ]
+    getChildRoutes (location, cb) {
+      require.ensure([], (require) => {
+        cb(null, [
+          // Remove imports!
+          require('./Home').default(store),
+          require('./Counter').default(store)
+        ])
+      })
+  },
 })
 
 /*  Note: childRoutes can be chunked or otherwise loaded programmatically
