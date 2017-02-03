@@ -120,7 +120,7 @@ const ACTION_HANDLERS = {
 // ------------------------------------
 
 const initialState: HomeState = {
-  pageView: 'results',
+  pageView: 'quizz',
   progress: 0,
   answearsArray: [],
   checkValue: false,
