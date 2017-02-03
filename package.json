@@ -88,6 +88,7 @@
     "css-loader": "^0.26.0",
     "cssnano": "^3.7.4",
     "debug": "^2.2.0",
+    "express": "^4.14.1",
     "extract-text-webpack-plugin": "^1.0.0",
     "file-loader": "^0.9.0",
     "fs-extra": "^1.0.0",
@@ -142,7 +143,17 @@
     "redbox-react": "^1.2.10",
     "sinon": "^1.17.5",
     "sinon-chai": "^2.8.0",
-    "webpack-dev-middleware": "^1.6.1",
-    "webpack-hot-middleware": "^2.12.2"
+    "webpack-dev-middleware": "^1.10.0",
+    "webpack-hot-middleware": "^2.16.1"
+  },
+  "bugs": {
+    "url": "https://github.com/davezuko/react-redux-starter-kit/issues"
+  },
+  "homepage": "https://github.com/davezuko/react-redux-starter-kit#readme",
+  "bin": {
+    "react-redux-starter-kit": "compile.js"
+  },
+  "directories": {
+    "test": "tests"
   }
 }
