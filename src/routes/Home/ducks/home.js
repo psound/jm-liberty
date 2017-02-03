@@ -3,6 +3,7 @@
 // ------------------------------------
 export const CHANGE_VIEW = 'CHANGE_VIEW';
 export const BACK_VIEW = 'BACK_VIEW';
+export const RESULTS_VIEW = 'RESULTS_VIEW';
 
 
 // ------------------------------------
@@ -17,10 +18,16 @@ export function changeView(viewInfo: ViewSectionObject): Action {
 }
 
 export function backView(viewInfo: ViewSectionObject): Action {
-    //console.log('calling the changeView action creator', viewInfo);
   return {
     type: BACK_VIEW,
     payload: viewInfo
+  }
+}
+
+export function resultsView(sectionData: ViewSectionObject): Action {
+  return {
+    type: RESULTS_VIEW,
+    payload: sectionData
   }
 }
 
@@ -55,6 +62,13 @@ export const backFunction = (viewInfo: ViewSectionObject): Function => {
   }
 };
 
+export const resultsFunction = (sectionData: ViewSectionObject): Function => {
+  return (dispatch: Function): Promise => {
+    dispatch(resultsView(sectionData));
+    return sectionData;
+  }
+};
+
 
 // ------------------------------------
 // Utility Functions
@@ -68,6 +82,7 @@ export const backFunction = (viewInfo: ViewSectionObject): Function => {
 export const actions = {
     changeView,
     backView,
+    resultsView,
 };
 // ------------------------------------
 // Action Handlers
@@ -83,12 +98,19 @@ const ACTION_HANDLERS = {
       })
     },
     [BACK_VIEW]: (state: HomeState, action: { payload: ViewSectionObject }): HomeState => {
-    console.log('action handeler', action.payload[0]);
+    //console.log('action handeler', action.payload[0]);
      state.answearsArray.pop();
       return ({
         ...state,
         progress: (action.payload[0]* 100)/action.payload[1],
         checkValue: false,
+      })
+    },
+    [RESULTS_VIEW]: (state: HomeState, action: { payload: ViewSectionObject }): HomeState => {
+    console.log('action handeler', action.payload);
+      return ({
+        ...state,
+        pageView: 'results',
       })
     },
 };
@@ -98,7 +120,7 @@ const ACTION_HANDLERS = {
 // ------------------------------------
 
 const initialState: HomeState = {
-  HomePage: 'q1',
+  pageView: 'results',
   progress: 0,
   answearsArray: [],
   checkValue: false,

@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import { updateView, backFunction } from '../ducks/home'
+import { updateView, backFunction, resultsFunction } from '../ducks/home'
 import HomeView from '../components/HomeView';
 
 // ------------------------------------
@@ -7,7 +7,7 @@ import HomeView from '../components/HomeView';
 // ------------------------------------
 const mapStateToProps = (state: { HomeStore: HomeState }): HomeState => ({
 
-    HomePage: state.HomeStore.HomePage,
+    pageView: state.HomeStore.pageView,
     progress: state.HomeStore.progress,
     answearsArray: state.HomeStore.answearsArray,
     checkValue: state.HomeStore.checkValue,
@@ -17,9 +17,10 @@ const mapStateToProps = (state: { HomeStore: HomeState }): HomeState => ({
 // ------------------------------------
 // Dispatch-to-Prop Mappings
 // ------------------------------------
-const mapDispatchToProps: ({updateView: Function, backFunction: Function}) = {
+const mapDispatchToProps: ({updateView: Function, backFunction: Function, resultsFunction: Function}) = {
    updateView,
    backFunction,
+   resultsFunction,
 };
 
 // ------------------------------------
