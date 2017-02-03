@@ -12,10 +12,68 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
+  color: #002563;
 }
 
 *,
 *:before,
 *:after {
   box-sizing: inherit;
+}
+h3 {
+    font-size: 50px;
+    text-align: left;
+    padding-top: 0;
+}
+.clearfix {
+    clear: both;
+}
+.checkbox, .radio {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.core-layout__viewport {
+    padding-top: 0px;
+}
+.center {
+    text-align: center;
+}
+.subheaderbar {
+    background: #002663;
+    color: #fff;
+    text-align: left;
+    padding: 12px 10px;
+}
+
+.whystate {
+    color: #ecac00;
+    text-decoration: underline;
+    font-style: italic;
+    cursor: pointer;
+}
+.progress-bar {
+    background: #ecac00;
+}
+.progress {
+    border: 3px solid #002663;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.modal-header {
+    border-bottom: 0;
+}
+.modal-header .close {
+    background: #002663;
+    color: #fff;
+    padding: 10px;
+    opacity: 1;
+}
+.pager li>a {
+    background: #002663;
+    color: #fff;
+    border: 1px solid #002663;
+}
+.pager li>a:focus, .pager li>a:hover {
+    background: #002663;
 }

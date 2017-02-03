@@ -1,0 +1,89 @@
+{
+    "quizName": "Quiz: Which Is Right for You: New or Used?",
+    "quiz": [{
+        "question":"Do You drive more than the national average of 13,000 miles a year?",
+        "response": [
+            "No, I Drive far less.",
+            "I drive about the average amount, give or take.",
+            "I drive far more than that, especially for work."],
+        "why": "The national average takes all drivers into account, from new drivers to daily commuters. But it's a good number to use to determine if you're a frequent or infrequent driver."
+        },
+        {
+        "question": "Do you consider yourself an early adopter?",
+        "response": [
+            "Yes, I upgrade my phone constantly and try every new app.",
+            "I like tech, but I prefer the tech I know.",
+            "I am not an early adopter at all. I still have a flip phone."],
+        "why": "The national average takes all drivers into account, from new drivers to daily commuters. But it's a good number to use to determine if you're a frequent or infrequent driver."
+        },
+        {
+        "question": "Are you a nervous driver or a confident driver?",
+        "response": [
+            "The bad behavior of other drivers and potential breakdowns are always in the back of my mind. ",
+            "Driving relaxes me; I’m at home on the road."],
+        "why": "The national average takes all drivers into account, from new drivers to daily commuters. But it's a good number to use to determine if you're a frequent or infrequent driver."
+        },
+        {
+        "question": "Do looks matter?",
+        "response": [
+            "Absolutely! My car is an extension of my personality.",
+            "Not too much, but I don’t want to drive a rusty old car, either.",
+            "No. I’ll drive whatever."],
+        "why": "The national average takes all drivers into account, from new drivers to daily commuters. But it's a good number to use to determine if you're a frequent or infrequent driver."
+        },
+        {
+        "question": "Do you have a vehicle to trade in that has equity (you owe less on it than it’s worth)?",
+        "response": [
+            "Yes, and it’s nearly paid off.",
+            "My trade-in is worth about what I owe on it. ",
+            "I don’t have a trade-in, or I’m underwater with my current car."],
+        "why": "The national average takes all drivers into account, from new drivers to daily commuters. But it's a good number to use to determine if you're a frequent or infrequent driver."
+        },
+        {
+        "question": "Does depreciation – the fact that a car is worth less as soon as you drive off the lot -- concern you?",
+        "response": [
+            "Not nearly as much as reliability.",
+            "I consider my car an asset, so yes."],
+        "why": "The national average takes all drivers into account, from new drivers to daily commuters. But it's a good number to use to determine if you're a frequent or infrequent driver."
+        },
+        {
+        "question": "Do you already have a mechanic you know and trust?",
+        "response": [
+            "Oh yes — I have a mechanic who I also consider a long-time friend.",
+            "I don’t have a regular mechanic, and I don’t know how to find a reliable one.",
+            "I consider myself a pretty handy person."],
+        "why": "The national average takes all drivers into account, from new drivers to daily commuters. But it's a good number to use to determine if you're a frequent or infrequent driver."
+        },
+        {
+        "question": "How concerned are you with fuel economy?",
+        "response": [
+            "The longer I can go between fill-ups, the better.",
+            "I don’t drive much, so it’s less important than things like price or safety.",
+            "I’d like to be as clean and green as possible, but I still need a car."],
+        "why": "The national average takes all drivers into account, from new drivers to daily commuters. But it's a good number to use to determine if you're a frequent or infrequent driver."
+        },
+        {
+        "question": "Do you have a down payment (besides that trade-in) on hand?",
+        "response": [
+            "Yes",
+            "No"],
+        "why": "The national average takes all drivers into account, from new drivers to daily commuters. But it's a good number to use to determine if you're a frequent or infrequent driver."
+        },
+        {
+        "question": "Do you tend to keep your cars for a long time?",
+        "response": [
+            "Yes, I had my last car for more than seven years.",
+            "No, I like to upgrade my cars every couple of years.",
+            "It depends on the car; I kept one for ages, but I’ve also traded in cars that didn’t work for me after a couple of years."],
+        "why": "The national average takes all drivers into account, from new drivers to daily commuters. But it's a good number to use to determine if you're a frequent or infrequent driver."
+        },
+        {
+        "question": "Do you plan on using your car to join the ride-hailing economy (Uber, Lyft, etc.)?",
+        "response": [
+            "No, I hardly know what it is and I definitely don’t want to be giving strangers rides in my car.",
+            "I might give my coworkers a ride sometimes.",
+            "Yes, I am going to provide ride hailing services with this car."],
+        "why": "The national average takes all drivers into account, from new drivers to daily commuters. But it's a good number to use to determine if you're a frequent or infrequent driver."
+        }
+    ]
+}
