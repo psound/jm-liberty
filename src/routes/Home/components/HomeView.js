@@ -1,14 +1,14 @@
 import React from 'react'
 import { IndexLink, Link } from 'react-router'
-import DuckImage from '../assets/Duck.jpg'
 import Overlay from '../../../components/Overlay'
+import Results from './Results'
 import './HomeView.scss'
 
 const styles = {};
 
 let data = require('../../../data/data.json');
 
-class  HomeView extends React.Component {
+class HomeView extends React.Component {
 
     constructor (props) {
         super(props);
@@ -55,6 +55,8 @@ class  HomeView extends React.Component {
                 this.props.updateView([p, this.state.total, this.state.answear]);
             }
         } else {
+            this.props.updateView([this.state.page, this.state.total, this.state.answear]);
+            this.props.resultsFunction();
             console.log('result');
         }
     }
@@ -93,44 +95,60 @@ class  HomeView extends React.Component {
         //console.log('percentage', nextProps.progress)
     }
 
+    renderQuizorResults = () => {
+        if(this.props.pageView == 'quizz') {
+            return(
+                <div>
+                    <h3>{data.quiz[this.state.Index].question}</h3>
+                    <div className="text-left">
+                        <a className="whystate" onClick={this.whyState}>why this question? ></a>
+                    </div>
+                    <div className="text-left">
+                        {data.quiz[this.state.Index].response.map(function(res, r){
+                            return(
+                                <div className="radio" key={r}>
+                                  <label>
+                                    <input type="radio" name={`optionsRadios`} value={res} onChange={this.handleRadios} checked={this.state.answear === res} />
+                                    {res}
+                                  </label>
+                                </div>
+                            )
+                        }, this)}
+                    </div>
+                    <div className="clearfix"></div>
+                    <div className="progress">
+                      <div className="progress-bar" role="progressbar" aria-valuenow={this.state.progress} aria-valuemin="0" aria-valuemax="100" style={this.buildStyle().progress}>
+                        <span className="sr-only">{this.state.progress} Complete</span>
+                      </div>
+                    </div>
+                    <div className="text-right">
+                        <em>{this.state.page} of {this.state.total}</em>
+                    </div>
+                    <div className="clearfix"></div>
+                    <nav aria-label="...">
+                      <ul className="pager">
+                        <li className="previous"><a href="javascript:void(0)" onClick={this.goPrev.bind(this, this.state.Index)}><span aria-hidden="true">&larr;</span> Back</a></li>
+                        <li className="next"><a href="javascript:void(0)" onClick={this.goNext.bind(this, this.state.Index)}>Next <span aria-hidden="true">&rarr;</span></a></li>
+                      </ul>
+                    </nav>
+                </div>
+                )
+            } else if(this.props.pageView == 'results') {
+            return(
+                <div>
+                    <Results />
+                </div>
+            )
+        }
+    }
+
     render() {
-        console.log('HomeView', this.props);
+        //console.log('HomeView', this.props);
         //console.log('json data', data);
         return (
           <div className="container">
             <div className="col-md-12">
-                <h3>{data.quiz[this.state.Index].question}</h3>
-                <div className="text-left">
-                    <a className="whystate" onClick={this.whyState}>why this question? ></a>
-                </div>
-                <div className="text-left">
-                    {data.quiz[this.state.Index].response.map(function(res, r){
-                        return(
-                            <div className="radio" key={r}>
-                              <label>
-                                <input type="radio" name={`optionsRadios`} value={res} onChange={this.handleRadios} checked={this.state.answear === res} />
-                                {res}
-                              </label>
-                            </div>
-                        )
-                    }, this)}
-                </div>
-                <div className="clearfix"></div>
-                <div className="progress">
-                  <div className="progress-bar" role="progressbar" aria-valuenow={this.state.progress} aria-valuemin="0" aria-valuemax="100" style={this.buildStyle().progress}>
-                    <span className="sr-only">{this.state.progress} Complete</span>
-                  </div>
-                </div>
-                <div className="text-right">
-                    <em>{this.state.page} of {this.state.total}</em>
-                </div>
-                <div className="clearfix"></div>
-                <nav aria-label="...">
-                  <ul className="pager">
-                    <li className="previous"><a href="javascript:void(0)" onClick={this.goPrev.bind(this, this.state.Index)}><span aria-hidden="true">&larr;</span> Back</a></li>
-                    <li className="next"><a href="javascript:void(0)" onClick={this.goNext.bind(this, this.state.Index)}>Next <span aria-hidden="true">&rarr;</span></a></li>
-                  </ul>
-                </nav>
+                {this.renderQuizorResults()}
             </div>
             <Overlay show={this.state.show} onHide={()=>this.handleClose()}>
                 {data.quiz[this.state.Index].why}

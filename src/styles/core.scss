@@ -20,6 +20,9 @@ body {
 *:after {
   box-sizing: inherit;
 }
+h2 {
+    font-size: 36px;
+}
 h3 {
     font-size: 50px;
     text-align: left;
@@ -27,6 +30,9 @@ h3 {
 }
 .clearfix {
     clear: both;
+}
+.yellow {
+    color: #ecac00;
 }
 .checkbox, .radio {
     margin-top: 25px;
@@ -76,4 +82,8 @@ h3 {
 }
 .pager li>a:focus, .pager li>a:hover {
     background: #002663;
+}
+img.results {
+    border: 3px solid #a8a8aa;
+    margin: 0 auto;
 }
