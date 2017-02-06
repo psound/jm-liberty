@@ -17,9 +17,9 @@ export const Header = () => (
             <span className="icon-bar"></span>
           </button>
         </div>
-        <div id="navbar" className="collapse navbar-collapse">
+
           <img src={Logo} className="img-responsive" />
-         </div>
+    
          <div className="subheaderbar" >
              <em>{data.quizName}</em>
          </div>
