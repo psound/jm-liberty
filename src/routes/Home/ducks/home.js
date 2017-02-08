@@ -114,10 +114,11 @@ const ACTION_HANDLERS = {
       })
       let totalQuestions = state.answearsArray.length;
       let range = (total/totalQuestions);
-      console.log("range", range);
+      //console.log("range", range);
       return ({
         ...state,
         pageView: 'results',
+        range: range.toFixed(1),
       })
     },
 };
@@ -127,10 +128,11 @@ const ACTION_HANDLERS = {
 // ------------------------------------
 
 const initialState: HomeState = {
-  pageView: 'quizz',
+  pageView: 'results',
   progress: 0,
   answearsArray: [],
   checkValue: false,
+  range: 0,
 };
 
 // ------------------------------------

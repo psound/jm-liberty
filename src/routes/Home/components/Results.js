@@ -1,19 +1,17 @@
 import React from 'react'
 import { IndexLink, Link } from 'react-router'
-import BuyNew from '../../../img/buynew.jpg'
-import BuyUsed from '../../../img/buyused.jpg'
 import './HomeView.scss'
 
 const styles = {};
 
-let data = require('../../../data/data.json');
+let data = require('../assets/data.json');
 
 class Results extends React.Component {
 
     constructor (props) {
         super(props);
         this.state = {
-            heroImage: require('../../../img/buynew.jpg'),
+            heroImage: require(`../../../img/${data.results[0].hero}`),
         }
     }
 
@@ -23,16 +21,16 @@ class Results extends React.Component {
 
     render() {
         return(
-            <div>
-                <div className="col-sm-7">
+            <div className={'results'}>
+                <div className="r1">
                     <img src={this.state.heroImage} className="img-responsive img-circle results" />
                 </div>
-                <div className="col-sm-5">
-                    <h2>You Should Buy a New Car</h2>
+                <div className="r2">
+                    <h2>{data.results[0].title}</h2>
                     <Link className="whystate">email my results></Link>
                 </div>
                 <div className="col-sm-12">
-                    <p className="resultLegend">You've done your research, taken a few test drives and narrowed the field of possible new cars down to the exact one you want. Now you need to make an even bigger decision: should you buy or lease? Finding the right answer — an answer that's custom-tailored to your specific wants and needs — depends on an assortment of factors, including your daily driving habits, your level of financial commitment and even your personal tastes.</p>
+                    <p className="resultLegend">{data.results[0].text}</p>
                 </div>
                 <div className="clearfix"></div>
                 <div className="col-sm-6">

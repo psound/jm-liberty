@@ -11,6 +11,7 @@ const mapStateToProps = (state: { HomeStore: HomeState }): HomeState => ({
     progress: state.HomeStore.progress,
     answearsArray: state.HomeStore.answearsArray,
     checkValue: state.HomeStore.checkValue,
+    range: state.HomeStore.range,
 
 });
 

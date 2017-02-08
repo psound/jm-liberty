@@ -2,11 +2,12 @@ import React from 'react'
 import { IndexLink, Link } from 'react-router'
 import Overlay from '../../../components/Overlay'
 import Results from './Results'
+import Results2 from './Results2'
 import './HomeView.scss'
 
 const styles = {};
 
-let data = require('../../../data/data.json');
+let data = require('../assets/data.json');
 
 class HomeView extends React.Component {
 
@@ -58,7 +59,6 @@ class HomeView extends React.Component {
             } else {
                 this.props.updateView([this.state.page, this.state.total, points]);
                 this.props.resultsFunction();
-                console.log('result');
             }
         }
     }
@@ -78,7 +78,7 @@ class HomeView extends React.Component {
     }
 
     handleRadios = (event) => {
-        console.log(event.target.alt);
+        //console.log(event.target.alt);
         this.setState({
             ...this.state,
             answear: event.target.value,
@@ -139,12 +139,21 @@ class HomeView extends React.Component {
                 </div>
                 )
             } else if(this.props.pageView == 'results') {
-            return(
-                <div>
-                    <Results />
-                </div>
-            )
-        }
+                console.log("props range", this.props.range);
+                if(this.props.range >= 1.5) {
+                    return(
+                        <div>
+                            <Results />
+                        </div>
+                    )
+                } else if(this.props.range < 1.5 ) {
+                    return(
+                        <div>
+                            <Results2 />
+                        </div>
+                    )
+                }
+            }
     }
 
     render() {
