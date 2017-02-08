@@ -15,8 +15,8 @@ export const createRoutes = (store) => ({
         cb(null, [
           // Remove imports!
           require('./Home').default(store),
-          //require('./BuyLease').default(store),
-          //require('./GasHybridElectric').default(store),
+          require('./BuyLease').default(store),
+          require('./GasHybridElectric').default(store),
           require('./Counter').default(store)
         ])
       })
