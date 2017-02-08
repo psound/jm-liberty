@@ -107,7 +107,14 @@ const ACTION_HANDLERS = {
       })
     },
     [RESULTS_VIEW]: (state: HomeState, action: { payload: ViewSectionObject }): HomeState => {
-    console.log('action handeler', action.payload);
+    //console.log('action handeler', action.payload);
+     let total = 0;
+      state.answearsArray.map(function(ans){
+          total = total + ans
+      })
+      let totalQuestions = state.answearsArray.length;
+      let range = (total/totalQuestions);
+      console.log("range", range);
       return ({
         ...state,
         pageView: 'results',

@@ -32,7 +32,7 @@ class Results extends React.Component {
                     <Link className="whystate">email my results></Link>
                 </div>
                 <div className="col-sm-12">
-                    <p>You've done your research, taken a few test drives and narrowed the field of possible new cars down to the exact one you want. Now you need to make an even bigger decision: should you buy or lease? Finding the right answer — an answer that's custom-tailored to your specific wants and needs — depends on an assortment of factors, including your daily driving habits, your level of financial commitment and even your personal tastes.</p>
+                    <p className="resultLegend">You've done your research, taken a few test drives and narrowed the field of possible new cars down to the exact one you want. Now you need to make an even bigger decision: should you buy or lease? Finding the right answer — an answer that's custom-tailored to your specific wants and needs — depends on an assortment of factors, including your daily driving habits, your level of financial commitment and even your personal tastes.</p>
                 </div>
                 <div className="clearfix"></div>
                 <div className="col-sm-6">

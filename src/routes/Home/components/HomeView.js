@@ -18,7 +18,8 @@ class HomeView extends React.Component {
             page: 1,
             total: 0,
             progress: 0,
-            answear: '',
+            answear: -1,
+            points: 0,
             checked: this.props.checkValue,
         }
     }
@@ -43,8 +44,9 @@ class HomeView extends React.Component {
         })
     }
     goNext = (ind) => {
-        if(this.state.page < this.state.total) {
-            if(this.state.checked) {
+        if(this.state.checked) {
+            let points = data.quiz[this.state.Index].value * this.state.points;
+            if(this.state.page < this.state.total) {
                 ind++;
                 let p = this.state.page+1;
                 this.setState({
@@ -52,12 +54,12 @@ class HomeView extends React.Component {
                     Index: ind,
                     page: p,
                 });
-                this.props.updateView([p, this.state.total, this.state.answear]);
+                this.props.updateView([p, this.state.total, points]);
+            } else {
+                this.props.updateView([this.state.page, this.state.total, points]);
+                this.props.resultsFunction();
+                console.log('result');
             }
-        } else {
-            this.props.updateView([this.state.page, this.state.total, this.state.answear]);
-            this.props.resultsFunction();
-            console.log('result');
         }
     }
 
@@ -69,17 +71,19 @@ class HomeView extends React.Component {
                 Index: ind,
                 page: p,
                 answear: '',
+                points: 0
             });
             this.props.backFunction([ind, this.state.total])
         }
     }
 
     handleRadios = (event) => {
-        //console.log(event.target);
+        console.log(event.target.alt);
         this.setState({
             ...this.state,
             answear: event.target.value,
             checked: event.target.checked,
+            points: event.target.alt,
         })
     }
 
@@ -105,11 +109,12 @@ class HomeView extends React.Component {
                     </div>
                     <div className="text-left">
                         {data.quiz[this.state.Index].response.map(function(res, r){
+                            //console.log("res.val", this.state.answear)
                             return(
                                 <div className="radio" key={r}>
                                   <label>
-                                    <input type="radio" name={`optionsRadios`} value={res} onChange={this.handleRadios} checked={this.state.answear === res} />
-                                    {res}
+                                    <input type="radio" name={`optionsRadios`} value={res.res} onChange={this.handleRadios} alt={res.val} checked={this.state.answear == res.res} />
+                                    {res.res}
                                   </label>
                                 </div>
                             )
