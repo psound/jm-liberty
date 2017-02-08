@@ -12,8 +12,8 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  color: #002563;
-  font-family: Century Schoolbook;
+  color: #002663;
+  font-family: Proxima Nova;
 }
 
 *,
@@ -22,18 +22,22 @@ body {
   box-sizing: inherit;
 }
 h2 {
-    font-size: 36px;
+    font-size: 29px;
 }
 h3 {
     font-size: 50px;
     text-align: left;
     padding-top: 0;
+    line-height: 32px;
+    font-size: 29px;
+    margin-top: 10px;
 }
 .clearfix {
     clear: both;
 }
 .yellow {
     color: #ecac00;
+    font-family: Century Schoolbook; 
 }
 .checkbox, .radio {
     margin-top: 25px;
@@ -52,12 +56,23 @@ h3 {
     text-align: left;
     padding: 12px 10px;
 }
-
+.navbar {
+    margin-bottom: 0;
+}
+.navbar .container img {
+    width:60%;
+    margin:20px 0;
+}
 .whystate {
     color: #ecac00;
     text-decoration: underline;
     font-style: italic;
     cursor: pointer;
+    font-family: Century Schoolbook;
+    font-size: 16px;
+}
+.checkbox label, .radio label {
+    font-weight: normal;
 }
 .progress-bar {
     background: #ecac00;
@@ -69,12 +84,21 @@ h3 {
 }
 .modal-header {
     border-bottom: 0;
+    padding: 0;
 }
 .modal-header .close {
     background: #002663;
     color: #fff;
     padding: 10px;
     opacity: 1;
+}
+.modal-body {
+    padding: 0 30px;
+    min-height: 250px;
+}
+.modal-body p {
+    margin-top: 50%;
+    vertical-align: middle;
 }
 .pager li>a {
     background: #002663;
@@ -84,7 +108,42 @@ h3 {
 .pager li>a:focus, .pager li>a:hover {
     background: #002663;
 }
+.r1 {
+    float: left;
+    width:40%;
+}
+.row2 {
+
+}
 img.results {
-    border: 3px solid #a8a8aa;
-    margin: 0 auto;
+    margin-top: 21px;
+    margin-left: 40px;
+    border: 5px solid #616265;
+}
+.r2 h2 {
+    padding-top: 40px;
+}
+.resultLegend {
+    padding: 0 0px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.results .row {
+    margin-top: 37px;
+}
+.results .pager li>a {
+    padding: 8px 30px;
+    border-radius: 28px;
+    font-size: 21px;
+    font-family: Century Schoolbook;
+}
+
+@media (max-width: 768px) {
+    img.results {
+        margin-left: -10px;
+        margin-top: 0px;
+    }
+    .r2 h2 {
+        padding-top: 10px;
+    }
 }
