@@ -28,8 +28,6 @@ class Results extends React.Component {
                 <div className="row2">
                     <h2>{data.results[0].title}</h2>
                     <Link className="whystate">email my results></Link>
-                </div>
-                <div className="col-sm-12">
                     <p className="resultLegend">{data.results[0].text}</p>
                 </div>
                 <div className="clearfix"></div>
@@ -47,7 +45,7 @@ class Results extends React.Component {
                 <div className="col-sm-6">
                     <p className="text-center yellow">
                         <em>Which Is Right for You:<br />
-                        Buy or Lease?</em>
+                        New or Used?</em>
                     </p>
                     <nav aria-label="...">
                       <ul className="pager">

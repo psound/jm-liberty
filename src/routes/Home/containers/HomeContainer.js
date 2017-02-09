@@ -12,6 +12,7 @@ const mapStateToProps = (state: { HomeStore: HomeState }): HomeState => ({
     answearsArray: state.HomeStore.answearsArray,
     checkValue: state.HomeStore.checkValue,
     range: state.HomeStore.range,
+    quizzName: state.HomeStore.quizzName,
 
 });
 

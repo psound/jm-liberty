@@ -46,7 +46,7 @@ class Results2 extends React.Component {
                     <div className="col-sm-6">
                         <p className="text-center yellow">
                             <em>Which Is Right for You:<br />
-                            Buy or Lease?</em>
+                            New or Used?</em>
                         </p>
                         <nav aria-label="...">
                           <ul className="pager">
