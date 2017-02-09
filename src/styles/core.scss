@@ -37,7 +37,7 @@ h3 {
 }
 .yellow {
     color: #ecac00;
-    font-family: Century Schoolbook; 
+    font-family: Century Schoolbook;
 }
 .checkbox, .radio {
     margin-top: 25px;
@@ -112,21 +112,21 @@ h3 {
     float: left;
     width:40%;
 }
-.row2 {
-
-}
 img.results {
     margin-top: 21px;
     margin-left: 40px;
     border: 5px solid #616265;
 }
-.r2 h2 {
+.row2 h2 {
     padding-top: 40px;
 }
 .resultLegend {
     padding: 0 0px;
     margin-top: 20px;
     font-size: 18px;
+}
+.row2 {
+
 }
 .results .row {
     margin-top: 37px;
@@ -143,7 +143,10 @@ img.results {
         margin-left: -10px;
         margin-top: 0px;
     }
-    .r2 h2 {
+    .row {
+
+    }
+    .row2 h2 {
         padding-top: 10px;
     }
 }
