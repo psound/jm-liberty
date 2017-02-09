@@ -3,6 +3,7 @@ import { IndexLink, Link } from 'react-router'
 import Overlay from '../../../components/Overlay'
 import Results from './Results'
 import Results2 from './Results2'
+import Results3 from './Results3'
 import './HomeView.scss'
 
 const styles = {};
@@ -143,16 +144,22 @@ class HomeView extends React.Component {
                 )
             } else if(this.props.pageView == 'results') {
                 console.log("props range", this.props.range);
-                if(this.props.range >= 1.5) {
+                if(this.props.range <= 2.5) {
                     return(
                         <div>
                             <Results />
                         </div>
                     )
-                } else if(this.props.range < 1.5 ) {
+                } else if(this.props.range > 1.5 && this.props.range <= 3.5 ) {
                     return(
                         <div>
                             <Results2 />
+                        </div>
+                    )
+                } else if(this.props.range > 3.5 ) {
+                    return(
+                        <div>
+                            <Results3 />
                         </div>
                     )
                 }
