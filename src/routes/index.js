@@ -1,6 +1,8 @@
 // We only need to import the modules necessary for initial render
 import CoreLayout from '../layouts/CoreLayout'
 import Home from './Home'
+import BuyLease from './BuyLease'
+import GasHybridElectric from './GasHybridElectric'
 import CounterRoute from './Counter'
 
 /*  Note: Instead of using JSX, we recommend using react-router

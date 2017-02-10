@@ -10,6 +10,7 @@ class Header extends React.Component {
     constructor (props) {
         super(props);
         this.state = {}
+        //console.log('header props', this)
     }
 
 render() {
@@ -17,9 +18,6 @@ render() {
       <div className="navbar" ref={'header'} >
           <div className="container">
               <img src={Logo} className="img-responsive" />
-             <div className="subheaderbar" >
-                 <em>{data.quizName}</em>
-             </div>
           </div>
       </div>)
     }

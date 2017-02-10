@@ -32,6 +32,9 @@ h3 {
     font-size: 29px;
     margin-top: 10px;
 }
+.container {
+    max-width:750px;
+}
 .clearfix {
     clear: both;
 }
@@ -55,6 +58,7 @@ h3 {
     color: #fff;
     text-align: left;
     padding: 12px 10px;
+    font-family: Century Schoolbook;
 }
 .navbar {
     margin-bottom: 0;
@@ -62,6 +66,7 @@ h3 {
 .navbar .container img {
     width:60%;
     margin:20px 0;
+    max-width: 300px;
 }
 .whystate {
     color: #ecac00;
@@ -81,6 +86,9 @@ h3 {
     border: 3px solid #002663;
     border-radius: 0;
     margin-bottom: 0;
+}
+.text-right em {
+    font-family: Century Schoolbook;
 }
 .modal-header {
     border-bottom: 0;
@@ -104,6 +112,7 @@ h3 {
     background: #002663;
     color: #fff;
     border: 1px solid #002663;
+    font-family: Century Schoolbook;
 }
 .pager li>a:focus, .pager li>a:hover {
     background: #002663;
@@ -123,7 +132,7 @@ img.results {
 .resultLegend {
     padding: 0 0px;
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 17px;
 }
 .row2 {
 
@@ -136,6 +145,9 @@ img.results {
     border-radius: 28px;
     font-size: 21px;
     font-family: Century Schoolbook;
+}
+.results .col-sm-6 {
+    margin-top: 70px;
 }
 
 @media (max-width: 768px) {

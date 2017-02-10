@@ -133,6 +133,7 @@ const initialState: HomeState = {
   answearsArray: [],
   checkValue: false,
   range: 0,
+  quizzName: '',
 };
 
 // ------------------------------------
