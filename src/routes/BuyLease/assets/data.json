@@ -19,8 +19,8 @@
         {
         "question": "What’s your typical annual mileage?",
         "response": [
-            {"res": "The bad behavior of other drivers and potential breakdowns are always in the back of my mind.", "val": 1},
-            {"res": "Driving relaxes me; I’m at home on the road.", "val": 3}],
+            {"res": "I drive less than 12,000 miles/year.", "val": 1},
+            {"res": "More than 12,000 miles/year.", "val": 3}],
         "why": "Most leases include a 12,000 miles/year allowance and charge you an average of $0.15 for every mile beyond that.",
         "value": 1
         },
