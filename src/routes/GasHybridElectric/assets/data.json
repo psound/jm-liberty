@@ -1,108 +1,132 @@
 {
-    "quizName": "Quiz: Which Is Right for You: New or Used?",
+    "quizName": "Quiz: Which Is Right for You: Gas Hybrid Electric?",
     "quiz": [{
-        "question":"Do you drive more than the national average of 13,000 miles a year?",
+        "question":"How long is your daily commute?",
         "response": [
-            {"res": "No, I drive far less.", "val": 1},
-            {"res": "I drive about the average amount, give or take.", "val": 0},
-            {"res": "I drive far more than that, especially for work.", "val": 3}],
-        "why": "The national average takes all drivers into account, from new drivers to daily commuters. But it's a good number to use to determine if you're a frequent or infrequent driver.",
+            {"res": "Short, less than 20 miles total.", "val": 5},
+            {"res": "Average, about 20 miles one way.", "val": 3},
+            {"res": "Long, 50 miles or more one way.", "val": 1}],
+        "why": "The number of miles you typically drive each day will matter most when deciding which to buy.",
         "value": 1
         },
         {
-        "question": "Do you consider yourself an early adopter?",
+        "question": "What’s your daily route like?",
         "response": [
-            {"res": "Yes, I upgrade my phone constantly and try every new app.", "val": 3},
-            {"res": "I like tech, but I prefer the tech I know.", "val": 3},
-            {"res": "I am not an early adopter at all. I still have a flip phone.", "val": 1}],
-        "why": "The national average takes all drivers into account, from new drivers to daily commuters. But it's a good number to use to determine if you're a frequent or infrequent driver.",
+            {"res": "Surface streets in neighborhoods.", "val": 5},
+            {"res": "Mostly interstates and large thoroughfares.", "val": 1},
+            {"res": "Lots of hills and rural driving", "val": 3}],
+        "why": "The type of driving you do will make a difference, since some of these vehicles handle driving tasks with more or less capability.",
         "value": 1
         },
         {
-        "question": "Are you a nervous driver or a confident driver?",
+        "question": "Are you shopping for new or used cars?",
         "response": [
-            {"res": "The bad behavior of other drivers and potential breakdowns are always in the back of my mind.", "val": 3},
-            {"res": "Driving relaxes me; I’m at home on the road.", "val": 1}],
-        "why": "The national average takes all drivers into account, from new drivers to daily commuters. But it's a good number to use to determine if you're a frequent or infrequent driver.",
+            {"res": "New.", "val": 5},
+            {"res": "Used.", "val": 3},
+            {"res": "Price matters more than whether the car is new or used.", "val": 1}],
+        "why": "With new drivetrain technology, availability is going to be an issue in the used-car market.",
         "value": 1
         },
         {
-        "question": "Do looks matter?",
+        "question": "How important is performance?",
         "response": [
-            {"res": "Absolutely! My car is an extension of my personality.", "val": 3},
-            {"res": "Not too much, but I don’t want to drive a rusty old car, either.", "val": 1},
-            {"res": "No. I’ll drive whatever.", "val": 1}],
-        "why": "The national average takes all drivers into account, from new drivers to daily commuters. But it's a good number to use to determine if you're a frequent or infrequent driver.",
+            {"res": "A. I like to zip around town.", "val": 5},
+            {"res": "I like to open it up on clear roads.", "val": 1},
+            {"res": "Efficiency is my performance metric", "val": 3}],
+        "why": "Each of these vehicles has its own sweet spot for performance; it’s just a matter of matching your type to the right car.",
         "value": 1
         },
         {
-        "question": "Do you have a vehicle to trade in that has equity (you owe less on it than it’s worth)?",
+        "question": "Do you like new technology or familiar systems?",
         "response": [
-            {"res": "Yes, and it’s nearly paid off.", "val": 1},
-            {"res": "My trade-in is worth about what I owe on it.", "val": 3},
-            {"res": "I don’t have a trade-in, or I’m underwater with my current car.", "val":3}],
-        "why": "The national average takes all drivers into account, from new drivers to daily commuters. But it's a good number to use to determine if you're a frequent or infrequent driver.",
+            {"res": "I’ll wait and see how things pan out before buying.", "val": 3},
+            {"res": "I am skeptical of new technology", "val": 1},
+            {"res": "I’m on board with the latest tech.", "val":5}],
+        "why": "Your preference for the tried-and- true or the shiny-and- new affect your choice.",
         "value": 1
         },
         {
-        "question": "Does depreciation – the fact that a car is worth less as soon as you drive off the lot - concern you?",
+        "question": "Do you have a garage or off-street parking?",
         "response": [
-            {"res":"Not nearly as much as reliability.", "val":2},
-            {"res":"I consider my car an asset, so yes.", "val": 1}],
-        "why": "The national average takes all drivers into account, from new drivers to daily commuters. But it's a good number to use to determine if you're a frequent or infrequent driver.",
+            {"res":"Yes, I have a garage.", "val":5},
+            {"res":"II have off-street parking.", "val": 3},
+            {"res":"I have on-street parking only.", "val": 1}],
+        "why": "Your parking situation says a lot about your ability to jump into EV ownership.",
         "value": 1
         },
         {
-        "question": "Do you already have a mechanic you know and trust?",
+        "question": "Where do you live?",
         "response": [
-            {"res": "Oh yes — I have a mechanic who I also consider a long-time friend.", "val": 1},
-            {"res": "I don’t have a regular mechanic, and I don’t know how to find a reliable one.", "val": 3},
-            {"res": "I consider myself a pretty handy person.", "val": 1}],
-        "why": "The national average takes all drivers into account, from new drivers to daily commuters. But it's a good number to use to determine if you're a frequent or infrequent driver.",
+            {"res": "House in the middle of nowhere", "val": 1},
+            {"res": "House in the suburbs", "val": 3},
+            {"res": "High-rise apartment in the city", "val": 5}],
+        "why": "Where you live might not seem to matter when deciding on a powertrain, but when you have to plug your car in to give it power, an electric vehicle or hybrid might be more or less doable depending on your location.",
         "value": 1
         },
         {
-        "question": "How concerned are you with fuel economy?",
+        "question": "How do you spend your leisure time?",
         "response": [
-            {"res": "The longer I can go between fill-ups, the better.", "val": 1},
-            {"res": "I don’t drive much, so it’s less important than things like price or safety.", "val": 3},
-            {"res": "I’d like to be as clean and green as possible, but I still need a car.", "val": 1}],
-        "why": "The national average takes all drivers into account, from new drivers to daily commuters. But it's a good number to use to determine if you're a frequent or infrequent driver.",
+            {"res": "In the boat on the lake.", "val": 1},
+            {"res": "Car camping at state parks.", "val": 3},
+            {"res": "At the farmers’ market and concerts.", "val": 5}],
+        "why": "Use cases are important considerations for which kind of car will work best with your life.",
         "value": 1
         },
         {
-        "question": "Do you have a down payment (besides that trade-in) on hand?",
+        "question": "Do you mind regular maintenance?",
         "response": [
-            {"res":"Yes", "val":1},
-            {"res": "No", "val":3}],
-        "why": "The national average takes all drivers into account, from new drivers to daily commuters. But it's a good number to use to determine if you're a frequent or infrequent driver.",
+            {"res":"It’s necessary, so I don’t mind.", "val":3},
+            {"res": "I like to do as much of it myself as possible. ", "val":1},
+            {"res": "Hate. It.", "val":5}],
+        "why": "Some love getting their hands dirty, and some prefer that it all just works.",
         "value": 1
         },
         {
-        "question": "Do you tend to keep your cars for a long time?",
+        "question": "What is your budget?",
         "response": [
-            {"res":"Yes, I had my last car for more than seven years.", "val":3},
-            {"res": "No, I like to upgrade my cars every couple of years.", "val":1},
-            {"res": "It depends on the car; I kept one for ages, but I’ve also traded in cars that didn’t work for me after a couple of years.", "val":1}],
-        "why": "The national average takes all drivers into account, from new drivers to daily commuters. But it's a good number to use to determine if you're a frequent or infrequent driver.",
+            {"res":"I’m frugal when it comes to car shopping.", "val":1},
+            {"res": "I’ve got some wiggle room in my budget.", "val":3},
+            {"res": "I’m willing to pay for what I want.", "val":5}],
+        "why": "Knowing how much you’re comfortable spending makes this choice a bit more clear-cut.",
         "value": 1
         },
         {
-        "question": "Do you plan on using your car to join the ride-hailing economy (Uber, Lyft, etc.)?",
+        "question": "How green are you?",
         "response": [
-            {"res":"No, I hardly know what it is and I definitely don’t want to be giving strangers rides in my car.", "val":1},
-            {"res": "I might give my coworkers a ride sometimes.", "val": 1},
-            {"res": "Yes, I am going to provide ride hailing services with this car.", "val": 3}],
-        "why": "The national average takes all drivers into account, from new drivers to daily commuters. But it's a good number to use to determine if you're a frequent or infrequent driver.",
+            {"res":" I compost, buy organic cleaning supplies and belong to a local CSA that delivers vegetables.", "val":5},
+            {"res": "I recycle glass and paper, but I’d like to be greener.", "val": 3},
+            {"res": "Who has time to sort garbage?", "val": 1}],
+        "why": "This is an obvious question, but it’s worth putting some thought into how eco-conscious you are before spending thousands of dollars.",
+        "value": 1
+        },
+        {
+        "question": "How green is your city?",
+        "response": [
+            {"res":"Very — we have composting at the curb and a bike sharing program.", "val":5},
+            {"res": "Not so much — we have recycling centers, but I think I can do better.", "val": 3},
+            {"res": "Not at all. My town is too small for that.", "val": 1}],
+        "why": "Even if you have the best of eco intentions, it helps when your community supports them.",
+        "value": 1
+        },
+        {
+        "question": "Will this be your only car?",
+        "response": [
+            {"res": "Yes", "val":5},
+            {"res": "No", "val": 1},
+            {"res": "Perhaps", "val": 3}],
+        "why": "Some households have multiple people sharing one car, and some have a car for each person. Knowing where your new car will fit into your household will help you make the right decision.",
         "value": 1
         }
     ],
     "results": [
-        {"title": "You should Buy a New Car",
+        {"title": "Your Car Should be Gas",
         "text": "With perks like high-reliability, the newest features, more selection and a built-in warranty, a new car is a no-brainer if you can afford it. Just remember to shop around, do your research, and use the resources below to get tips for how to decide on the right car and get the best deal.",
-        "hero": "buynew.jpg"},
-        {"title": "You should Buy a Used Car",
-        "text": "You won’t necessarily get the most cutting edge tech, but you’ll get more bang for your buck since someone else has already taken the most significant hit of depreciation. Just make sure you set aside some money for maintenance. Use the resources below to get tips for how to decide on the right car and get the best deal.",
-        "hero": "buyused.jpg"}
+        "hero": "gas.jpg"},
+        {"title": "Your Car Should be Hybrid",
+        "text": "Hybrids have come a long way since their first iterations over a decade ago. Many popular models are now available in a hybrid version and across a range of price points, new and used. So if you haven’t yet driven a hybrid, it’s worth a test drive to see if you like everything they have to offer.",
+        "hero": "hybrid.jpg"},
+        {"title": "Your Car Should be Electric",
+        "text": "With generally higher MSRPs and less range, electric vehicles aren’t right for everyone. But they’re a great option if your lifestyle and driving needs can accommodate them – and yours seem to! Keep your eye out for federal and state tax incentives to help offset an electric vehicle’s higher sticker price.",
+        "hero": "electric.jpg"}
     ]
 }

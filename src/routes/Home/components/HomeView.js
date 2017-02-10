@@ -103,6 +103,9 @@ class HomeView extends React.Component {
         if(this.props.pageView == 'quizz') {
             return(
                 <div>
+                    <div className="row subheaderbar" >
+                        <em>{data.quizName}</em>
+                    </div>
                     <h3>{data.quiz[this.state.Index].question}</h3>
                     <div className="text-left">
                         <a className="whystate" onClick={this.whyState}>why this question? ></a>

@@ -6,7 +6,7 @@ const styles = {};
 
 let data = require('../assets/data.json');
 
-class Results extends React.Component {
+class Results3 extends React.Component {
 
     constructor (props) {
         super(props);
@@ -26,15 +26,15 @@ class Results extends React.Component {
                     <img src={this.state.heroImage} className="img-responsive img-circle results" />
                 </div>
                 <div className="row2">
-                    <h2>{data.results[0].title}</h2>
+                    <h2>{data.results[2].title}</h2>
                     <Link className="whystate">email my results></Link>
-                    <p className="resultLegend">{data.results[0].text}</p>
+                    <p className="resultLegend">{data.results[2].text}</p>
                 </div>
                 <div className="clearfix"></div>
                 <div className="col-sm-6">
                     <p className="text-center yellow">
                         <em>Which Is Right for you:<br />
-                        Gasoline, Electric or Hybrid?</em>
+                        New or Used?</em>
                     </p>
                     <nav aria-label="...">
                       <ul className="pager">
@@ -45,7 +45,7 @@ class Results extends React.Component {
                 <div className="col-sm-6">
                     <p className="text-center yellow">
                         <em>Which Is Right for You:<br />
-                        New or Used?</em>
+                        Buy or Lease?</em>
                     </p>
                     <nav aria-label="...">
                       <ul className="pager">
@@ -58,8 +58,8 @@ class Results extends React.Component {
     }
 }
 
-Results.contextTypes = {
+Results3.contextTypes = {
   router: React.PropTypes.object.isRequired
 };
 
-export default Results
+export default Results3
