@@ -135,8 +135,8 @@ class HomeView extends React.Component {
                     <div className="clearfix"></div>
                     <nav aria-label="...">
                       <ul className="pager">
-                        <li className="previous"><a href="javascript:void(0)" onClick={this.goPrev.bind(this, this.state.Index)}><span aria-hidden="true">&larr;</span> Back</a></li>
-                        <li className="next"><a href="javascript:void(0)" onClick={this.goNext.bind(this, this.state.Index)}>Next <span aria-hidden="true">&rarr;</span></a></li>
+                          <li className="previous"><a href="javascript:void(0)" onClick={this.goPrev.bind(this, this.state.Index)}><span className="yellow">&lt;</span> <em>back</em></a></li>
+                          <li className="next"><a href="javascript:void(0)" onClick={this.goNext.bind(this, this.state.Index)}><em>next</em> <span className="yellow">&gt;</span></a></li>
                       </ul>
                     </nav>
                 </div>

@@ -30,7 +30,7 @@
         {
         "question": "How important is performance?",
         "response": [
-            {"res": "A. I like to zip around town.", "val": 5},
+            {"res": "I like to zip around town.", "val": 5},
             {"res": "I like to open it up on clear roads.", "val": 1},
             {"res": "Efficiency is my performance metric", "val": 3}],
         "why": "Each of these vehicles has its own sweet spot for performance; it’s just a matter of matching your type to the right car.",

@@ -108,6 +108,9 @@ h3 {
     margin-top: 50%;
     vertical-align: middle;
 }
+.modal-content {
+    border-radius: 0px;
+}
 .pager li>a {
     background: #002663;
     color: #fff;
@@ -135,7 +138,8 @@ img.results {
     font-size: 17px;
 }
 .row2 {
-
+    float:right;
+    width: 60%;
 }
 .results .row {
     margin-top: 37px;
@@ -155,8 +159,16 @@ img.results {
         margin-left: -10px;
         margin-top: 0px;
     }
-    .row {
+}
 
+@media (max-width: 416px) {
+    img.results {
+        margin-left: -10px;
+        margin-top: 0px;
+    }
+    .row2 {
+        float: none;
+        width: inherit;
     }
     .row2 h2 {
         padding-top: 10px;
