@@ -153,6 +153,9 @@ img.results {
 .results .col-sm-6 {
     margin-top: 70px;
 }
+.results a {
+    text-decoration: underline;
+}
 
 @media (max-width: 768px) {
     img.results {

@@ -120,13 +120,13 @@
     ],
     "results": [
         {"title": "Your Car Should be Gas",
-        "text": "With perks like high-reliability, the newest features, more selection and a built-in warranty, a new car is a no-brainer if you can afford it. Just remember to shop around, do your research, and use the resources below to get tips for how to decide on the right car and get the best deal.",
+        "text": "With perks like high-reliability, the newest features, more selection and a built-in warranty, a new car is a no-brainer if you can afford it. Just remember to shop around, do your research, and use the resources below to get tips for how to decide on the right car and get the best deal",
         "hero": "gas.jpg"},
         {"title": "Your Car Should be Hybrid",
-        "text": "Hybrids have come a long way since their first iterations over a decade ago. Many popular models are now available in a hybrid version and across a range of price points, new and used. So if you haven’t yet driven a hybrid, it’s worth a test drive to see if you like everything they have to offer.",
+        "text": "Hybrids have come a long way since their first iterations over a decade ago. Many popular models are now available in a hybrid version and across a range of price points, new and used. So if you haven’t yet driven a hybrid, it’s worth a test drive to see if you like everything they have to offer",
         "hero": "hybrid.jpg"},
         {"title": "Your Car Should be Electric",
-        "text": "With generally higher MSRPs and less range, electric vehicles aren’t right for everyone. But they’re a great option if your lifestyle and driving needs can accommodate them – and yours seem to! Keep your eye out for federal and state tax incentives to help offset an electric vehicle’s higher sticker price.",
+        "text": "With generally higher MSRPs and less range, electric vehicles aren’t right for everyone. But they’re a great option if your lifestyle and driving needs can accommodate them – and yours seem to! Keep your eye out for federal and state tax incentives to help offset an electric vehicle’s higher sticker price",
         "hero": "electric.jpg"}
     ]
 }
