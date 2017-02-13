@@ -99,10 +99,10 @@
     ],
     "results": [
         {"title": "You should Buy a New Car",
-        "text": "With perks like high-reliability, the newest features, more selection and a built-in warranty, a new car is a no-brainer if you can afford it. Just remember to shop around, do your research, and use the resources below to get tips for how to decide on the right car and get the best deal.",
+        "text": "With perks like high-reliability, the newest features, more selection and a built-in warranty, a new car is a no-brainer if you can afford it. Just remember to shop around, do your research, and use the resources below to get tips for how to decide on the right car and get the best deal",
         "hero": "buynew.jpg"},
         {"title": "You should Buy a Used Car",
-        "text": "You won’t necessarily get the most cutting edge tech, but you’ll get more bang for your buck since someone else has already taken the most significant hit of depreciation. Just make sure you set aside some money for maintenance. Use the resources below to get tips for how to decide on the right car and get the best deal.",
+        "text": "You won’t necessarily get the most cutting edge tech, but you’ll get more bang for your buck since someone else has already taken the most significant hit of depreciation. Just make sure you set aside some money for maintenance. Use the resources below to get tips for how to decide on the right car and get the best deal",
         "hero": "buyused.jpg"}
     ]
 }
