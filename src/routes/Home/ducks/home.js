@@ -128,7 +128,7 @@ const ACTION_HANDLERS = {
 // ------------------------------------
 
 const initialState: HomeState = {
-  pageView: 'quizz',
+  pageView: 'results',
   progress: 0,
   answearsArray: [],
   checkValue: false,
