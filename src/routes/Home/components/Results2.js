@@ -28,7 +28,7 @@ class Results2 extends React.Component {
                 <div className="row2">
                     <h2>{data.results[1].title}</h2>
                     <Link className="whystate">email my results></Link>
-                    <p className="resultLegend">{data.results[1].text}, <a href="http://www.libertymutual.com/carbuying" >click here</a></p>
+                    <p className="resultLegend">{data.results[1].text}, <a href="http://www.libertymutual.com/carbuying" >click here</a>&nbsp;to find a great deal.</p>
                 </div>
                 <div className="clearfix"></div>
                 <div className="row">
