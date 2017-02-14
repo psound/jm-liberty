@@ -58,7 +58,7 @@
             {"res": "Oh yes — I have a mechanic who I also consider a long-time friend.", "val": 1},
             {"res": "I don’t have a regular mechanic, and I don’t know how to find a reliable one.", "val": 3},
             {"res": "I consider myself a pretty handy person.", "val": 1}],
-        "why": "A trustworthy mechanic is a must for any car owner, whether it&#39;s an independent shop or a dealership.",
+        "why": "A trustworthy mechanic is a must for any car owner, whether it’s an independent shop or a dealership.",
         "value": 1
         },
         {
@@ -67,7 +67,7 @@
             {"res": "The longer I can go between fill-ups, the better.", "val": 1},
             {"res": "I don’t drive much, so it’s less important than things like price or safety.", "val": 3},
             {"res": "I’d like to be as clean and green as possible, but I still need a car.", "val": 1}],
-        "why": "People who don&#39;t drive much or who have highway commutes at steady speeds might have different fuel efficiency needs than people who travel mostly city streets every day. And for some, how 'green' a car is will matter quite a bit.",
+        "why": "People who don't drive much or who have highway commutes at steady speeds might have different fuel efficiency needs than people who travel mostly city streets every day. And for some, how 'green' a car is will matter quite a bit.",
         "value": 1
         },
         {
@@ -75,7 +75,7 @@
         "response": [
             {"res":"Yes", "val":1},
             {"res": "No", "val":3}],
-        "why": "Having cash ready on the day you buy the car will make a difference in the amount you must finance. The less you borrow, the less you&#39;ll pay in interest over the life of the loan. Used cars typically have steeper APR and monthly payments, so a higher down payment will help in the long-run. On new cars, manufacturers often have zero down payment and/or financing deals, which lessens the benefit of a healthy down payment.",
+        "why": "Having cash ready on the day you buy the car will make a difference in the amount you must finance. The less you borrow, the less you’ll pay in interest over the life of the loan. Used cars typically have steeper APR and monthly payments, so a higher down payment will help in the long-run. On new cars, manufacturers often have zero down payment and/or financing deals, which lessens the benefit of a healthy down payment.",
         "value": 1
         },
         {
@@ -93,7 +93,7 @@
             {"res":"No, I hardly know what it is and I definitely don’t want to be giving strangers rides in my car.", "val":1},
             {"res": "I might give my coworkers a ride sometimes.", "val": 1},
             {"res": "Yes, I am going to provide ride hailing services with this car.", "val": 3}],
-        "why": "This is a question most buyers haven&#39;t had to consider before, but for some it's an important question. As of October 2015, Uber alone had 327,000 active drivers in the U.S.",
+        "why": "This is a question most buyers haven’t had to consider before, but for some it's an important question. As of October 2015, Uber alone had 327,000 active drivers in the U.S.",
         "value": 1
         }
     ],
