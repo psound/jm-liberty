@@ -61,7 +61,7 @@
         "response": [
             {"res": "I’ll likely hang a rearview mirror ornament and buy some better floor mats.", "val": 3},
             {"res": "I’m going all in with new rims and a spoiler.", "val": 1}],
-        "why": "YEveryone does at least a little customization to make their car their own. The amount you want to do is what matters in this case.",
+        "why": "Everyone does at least a little customization to make their car their own. The amount you want to do is what matters in this case.",
         "value": 1
         },
         {
@@ -77,7 +77,7 @@
         "response": [
             {"res":"I’m always concerned about having enough on hand to cover maintenance costs.", "val":1},
             {"res": "The idea of having a car payment for 5, 6, or even 7 years makes me anxious.", "val":3}],
-        "why": "The down payment is cash you bring to the dealership to offset the amount of money you’ll be borrowing or leasing. The more you pay up front, the less you have to finance.",
+        "why": "No car comes free; this is your chance to finance your car in a way that causes you the least stress.",
         "value": 1
         },
         {

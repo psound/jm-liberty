@@ -42,7 +42,7 @@
             {"res": "I’ll wait and see how things pan out before buying.", "val": 3},
             {"res": "I am skeptical of new technology.", "val": 1},
             {"res": "I’m on board with the latest tech.", "val":5}],
-        "why": "Your preference for the tried-and- true or the shiny-and- new affect your choice.",
+        "why": "Your preference for the tried-and-true or the shiny-and-new affect your choice.",
         "value": 1
         },
         {
