@@ -14,7 +14,7 @@
         "response": [
             {"res": "Surface streets in neighborhoods.", "val": 5},
             {"res": "Mostly interstates and large thoroughfares.", "val": 1},
-            {"res": "Lots of hills and rural driving", "val": 3}],
+            {"res": "Lots of hills and rural driving.", "val": 3}],
         "why": "The type of driving you do will make a difference, since some of these vehicles handle driving tasks with more or less capability.",
         "value": 1
         },
@@ -32,7 +32,7 @@
         "response": [
             {"res": "I like to zip around town.", "val": 5},
             {"res": "I like to open it up on clear roads.", "val": 1},
-            {"res": "Efficiency is my performance metric", "val": 3}],
+            {"res": "Efficiency is my performance metric.", "val": 3}],
         "why": "Each of these vehicles has its own sweet spot for performance; it’s just a matter of matching your type to the right car.",
         "value": 1
         },
@@ -40,7 +40,7 @@
         "question": "Do you like new technology or familiar systems?",
         "response": [
             {"res": "I’ll wait and see how things pan out before buying.", "val": 3},
-            {"res": "I am skeptical of new technology", "val": 1},
+            {"res": "I am skeptical of new technology.", "val": 1},
             {"res": "I’m on board with the latest tech.", "val":5}],
         "why": "Your preference for the tried-and- true or the shiny-and- new affect your choice.",
         "value": 1
@@ -49,7 +49,7 @@
         "question": "Do you have a garage or off-street parking?",
         "response": [
             {"res":"Yes, I have a garage.", "val":5},
-            {"res":"II have off-street parking.", "val": 3},
+            {"res":"I have off-street parking.", "val": 3},
             {"res":"I have on-street parking only.", "val": 1}],
         "why": "Your parking situation says a lot about your ability to jump into EV ownership.",
         "value": 1
@@ -119,14 +119,14 @@
         }
     ],
     "results": [
-        {"title": "Your Car Should be Gas",
-        "text": "With perks like high-reliability, the newest features, more selection and a built-in warranty, a new car is a no-brainer if you can afford it. Just remember to shop around, do your research, and use the resources below to get tips for how to decide on the right car and get the best deal",
+        {"title": "Gas",
+        "text": "With perks like high-reliability, the newest features, more selection and a built-in warranty, a new car is a no-brainer if you can afford it. Just remember to shop around, do your research, and use the resources below to get tips for how to decide on the right car and get the best deal.",
         "hero": "gas.jpg"},
-        {"title": "Your Car Should be Hybrid",
-        "text": "Hybrids have come a long way since their first iterations over a decade ago. Many popular models are now available in a hybrid version and across a range of price points, new and used. So if you haven’t yet driven a hybrid, it’s worth a test drive to see if you like everything they have to offer",
+        {"title": "Hybrid",
+        "text": "Hybrids have come a long way since their first iterations over a decade ago. Many popular models are now available in a hybrid version and across a range of price points, new and used. So if you haven’t yet driven a hybrid, it’s worth a test drive to see if you like everything they have to offer.",
         "hero": "hybrid.jpg"},
-        {"title": "Your Car Should be Electric",
-        "text": "With generally higher MSRPs and less range, electric vehicles aren’t right for everyone. But they’re a great option if your lifestyle and driving needs can accommodate them – and yours seem to! Keep your eye out for federal and state tax incentives to help offset an electric vehicle’s higher sticker price",
+        {"title": "Electric",
+        "text": "With generally higher MSRPs and less range, electric vehicles aren’t right for everyone. But they’re a great option if your lifestyle and driving needs can accommodate them – and yours seem to! Keep your eye out for federal and state tax incentives to help offset an electric vehicle’s higher sticker price.",
         "hero": "electric.jpg"}
     ]
 }
