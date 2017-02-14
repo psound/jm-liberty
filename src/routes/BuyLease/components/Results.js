@@ -38,7 +38,7 @@ class Results extends React.Component {
                     </p>
                     <nav aria-label="...">
                       <ul className="pager">
-                        <li><a href="#"><em>Take this quiz ></em></a></li>
+                        <li><a href="#"><em>Take this quiz <span className="yellow">&gt;</span></em></a></li>
                       </ul>
                     </nav>
                 </div>
@@ -49,7 +49,7 @@ class Results extends React.Component {
                     </p>
                     <nav aria-label="...">
                       <ul className="pager">
-                        <li><a href="#"><em>Take this quiz ></em></a></li>
+                        <li><a href="#"><em>Take this quiz <span className="yellow">&gt;</span></em></a></li>
                       </ul>
                     </nav>
                 </div>
