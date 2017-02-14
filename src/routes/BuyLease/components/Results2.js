@@ -26,7 +26,7 @@ class Results2 extends React.Component {
                     <img src={this.state.heroImage} className="img-responsive img-circle results" />
                 </div>
                 <div className="row2">
-                    <h2>{data.results[1].title}</h2>
+                    <h2>You should <b>{data.results[1].title}</b></h2>
                     <Link className="whystate">email my results></Link>
                     <p className="resultLegend">{data.results[1].text}, <a href="http://www.libertymutual.com/carbuying" >click here</a></p>
                 </div>
