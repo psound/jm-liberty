@@ -42,6 +42,9 @@ h3 {
     color: #ecac00;
     font-family: Century Schoolbook;
 }
+.lm-blue {
+    color:#002663;
+}
 .checkbox, .radio {
     margin-top: 25px;
     margin-bottom: 25px;
@@ -103,9 +106,10 @@ h3 {
 .modal-body {
     padding: 0 30px;
     min-height: 250px;
+    display: table;
 }
 .modal-body p {
-    margin-top: 50%;
+    display: table-cell;
     vertical-align: middle;
 }
 .modal-content {

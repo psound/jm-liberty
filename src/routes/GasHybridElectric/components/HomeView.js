@@ -118,7 +118,7 @@ class HomeView extends React.Component {
                                 <div className="radio" key={r}>
                                   <label>
                                     <input type="radio" name={`optionsRadios`} value={res.res} onChange={this.handleRadios} alt={res.val} checked={this.state.answear == res.res} />
-                                    {res.res}
+                                    <div dangerouslySetInnerHTML={{ __html: res.res}}></div>
                                   </label>
                                 </div>
                             )
