@@ -35,7 +35,7 @@ class Results extends React.Component {
                 </div>
                 <div className="clearfix"></div>
                 <div className="col-sm-6">
-                    <p className="text-center yellow">
+                    <p className="text-center lm-blue">
                         <em>Which Is Right for you:<br />
                         Gasoline, Electric or Hybrid?</em>
                     </p>
@@ -46,7 +46,7 @@ class Results extends React.Component {
                     </nav>
                 </div>
                 <div className="col-sm-6">
-                    <p className="text-center yellow">
+                    <p className="text-center lm-blue">
                         <em>Which Is Right for You:<br />
                         Buy or Lease?</em>
                     </p>

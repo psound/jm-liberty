@@ -1,10 +1,10 @@
 {
-    "quizName": "Quiz: Which Is Right for You: Gas Hybrid Electric?",
+    "quizName": "Which Car is Right for You: Gasoline, Electric or Hybrid?",
     "quiz": [{
         "question":"How long is your daily commute?",
         "response": [
             {"res": "Short, less than 20 miles total.", "val": 5},
-            {"res": "Average, about 20 miles one way.", "val": 3},
+            {"res": "Average, about 20 miles one way.<sup>1</sup>", "val": 3},
             {"res": "Long, 50 miles or more one way.", "val": 1}],
         "why": "The number of miles you typically drive each day will matter most when deciding which to buy.",
         "value": 1
