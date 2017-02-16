@@ -22,6 +22,9 @@ class Results3 extends React.Component {
     render() {
         return(
             <div className={'results'}>
+                <div className="row subheaderbar" >
+                    <em>{data.quizName}</em>
+                </div>
                 <div className="r1">
                     <img src={this.state.heroImage} className="img-responsive img-circle results" />
                 </div>
