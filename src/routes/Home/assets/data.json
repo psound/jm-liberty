@@ -1,7 +1,7 @@
 {
     "quizName": "Quiz: Which Is Right for You: New or Used?",
     "quiz": [{
-        "question":"Do you drive more than the national average of 13,000 miles a year?<sup>1</sup>",
+        "question":"Do you drive more than the national average of 13,000 miles a year?<sup class='sup'>1</sup>",
         "response": [
             {"res": "No, I drive far less.", "val": 1},
             {"res": "I drive about the average amount, give or take.", "val": 0},
