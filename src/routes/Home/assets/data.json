@@ -1,7 +1,7 @@
 {
     "quizName": "Quiz: Which Is Right for You: New or Used?",
     "quiz": [{
-        "question":"Do you drive more than the national average of 13,000 miles a year?",
+        "question":"Do you drive more than the national average of 13,000 miles a year?<sup>1</sup>",
         "response": [
             {"res": "No, I drive far less.", "val": 1},
             {"res": "I drive about the average amount, give or take.", "val": 0},
@@ -45,7 +45,7 @@
         "value": 1
         },
         {
-        "question": "Does depreciation – the fact that a car is worth less as soon as you drive off the lot - concern you?",
+        "question": "Does depreciation - the fact that a car is worth less as soon as you drive off the lot - concern you?",
         "response": [
             {"res":"Not nearly as much as reliability.", "val":2},
             {"res":"I consider my car an asset, so yes.", "val": 1}],
@@ -84,7 +84,7 @@
             {"res":"Yes, I had my last car for more than seven years.", "val":3},
             {"res": "No, I like to upgrade my cars every couple of years.", "val":1},
             {"res": "It depends on the car; I kept one for ages, but I’ve also traded in cars that didn’t work for me after a couple of years.", "val":1}],
-        "why": "Americans across the board are holding onto their cars longer. The average new-vehicle buyer will keep it for 6.5 years; used-vehicle buyers keep theirs for 5.3 years, on average.",
+        "why": "Americans across the board are holding onto their cars longer. The average new-vehicle buyer will keep it for 6.5 years; used-vehicle buyers keep theirs for 5.3 years, on average.<sup>2</sup>",
         "value": 1
         },
         {
@@ -93,7 +93,7 @@
             {"res":"No, I hardly know what it is and I definitely don’t want to be giving strangers rides in my car.", "val":1},
             {"res": "I might give my coworkers a ride sometimes.", "val": 1},
             {"res": "Yes, I am going to provide ride hailing services with this car.", "val": 3}],
-        "why": "This is a question most buyers haven’t had to consider before, but for some it's an important question. As of October 2015, Uber alone had 327,000 active drivers in the U.S.",
+        "why": "This is a question most buyers haven’t had to consider before, but for some it's an important question. As of October 2015, Uber alone had 327,000 active drivers in the U.S.<sup>3</sup>",
         "value": 1
         }
     ],

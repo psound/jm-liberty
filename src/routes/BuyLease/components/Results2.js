@@ -44,7 +44,7 @@ class Results2 extends React.Component {
                         </nav>
                     </div>
                     <div className="col-sm-6">
-                        <p className="text-center yellow">
+                        <p className="text-center lm-blue">
                             <em>Which Is Right for You:<br />
                             New or Used?</em>
                         </p>

@@ -106,7 +106,7 @@ class HomeView extends React.Component {
                     <div className="row subheaderbar" >
                         <em>{data.quizName}</em>
                     </div>
-                    <h3>{data.quiz[this.state.Index].question}</h3>
+                    <h3 dangerouslySetInnerHTML={{ __html: data.quiz[this.state.Index].question}}></h3>
                     <div className="text-left">
                         <a className="whystate" onClick={this.whyState}>why this question? ></a>
                     </div>
@@ -168,7 +168,7 @@ class HomeView extends React.Component {
                 {this.renderQuizorResults()}
             </div>
             <Overlay show={this.state.show} onHide={()=>this.handleClose()}>
-                {data.quiz[this.state.Index].why}
+                <div dangerouslySetInnerHTML={{ __html: data.quiz[this.state.Index].why}}></div>
             </Overlay>
           </div>
         )
